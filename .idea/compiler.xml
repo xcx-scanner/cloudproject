@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-commons" />
+        <module name="cloud-config-center-5678" />
+        <module name="cloud-config-client-5679" />
+        <module name="cloud-config-rabbitmq-client-5680" />
+        <module name="cloud-consul-consumer-8007" />
+        <module name="cloud-consul-payment-8006" />
+        <module name="cloud-consumeroder-8002" />
+        <module name="cloud-eureka-7003" />
+        <module name="cloud-eureka-server-7002" />
+        <module name="cloud-feign-consumer-8008" />
+        <module name="cloud-gateway-conf-9527" />
+        <module name="cloud-hystrix-consumer-8010" />
+        <module name="cloud-hystrix-dashboard-9001" />
+        <module name="cloud-hystrix-payment-8009" />
+        <module name="cloud-payment-module-8001" />
+        <module name="cloud-payment-module-8003" />
+        <module name="cloud-stream-rabbitmq-producer-8801" />
+        <module name="cloud-zookeeper-consumer-8005" />
+        <module name="cloud-zookeeper-payment-8004" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

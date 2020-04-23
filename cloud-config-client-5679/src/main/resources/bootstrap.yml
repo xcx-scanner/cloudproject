@@ -1,0 +1,39 @@
+server:
+  port: 5679
+spring:
+  application:
+    name: cloud-config-client #服务名称
+  cloud:
+    config:
+     #配置文件的名称，配置中心中配置文件的前缀名称
+     #配置文件是什么名字这里就指定什么名字
+     #如果取的名字是application那么这里就是application
+      name: config
+      #分支名称，取的是配置中心的哪个分支
+      label: develop
+      #配置文件的后缀，如config-dev ,config-uat等等，这里就是指定的后缀
+      profile: dev
+      #配置中心服务端地址
+      #根据这些配置会获取到http://localhost:5678/dev/config-dev.yml文件
+      uri: http://localhost:5678
+  #BUS消息总线RabbitMQ相关配置
+  rabbitmq:
+    host: 192.168.1.111
+    port: 5672 #对应的是配置中心客户端的端口
+    username: guest #rabbitMQ用户
+    password: guest #rabbitMQ密码
+
+#eureka注册中心地址
+eureka:
+  client:
+    service-url:
+       defaultZone: http://eureka7003.com:7003/eureka/
+
+
+#暴露监控端点，当配置文件发生修改后，不需要重启 配置中心客户端就可以获取到
+#还需要客户端获取配置的业务类controller上增加@RefreshScope注解
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

@@ -1,0 +1,55 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: xcx-cloud-gateway-conf #服务提供者，服务名称用于消费者调用，集群的时候，服务名称保持一致
+  cloud:
+    gateway:
+      discovery:
+         locator:
+           enabled: true #开启注册中心动态创建路由功能，利用微服务进行路由。如果不需要开启动态路由则不需要要这个配置
+      routes:
+      #路由ID，没有固定规则，但是需要唯一，一般配合服务名称命名
+       - id: cloud-gateway-routh
+         #uri: http://localhost:8001 #没有开启动态路由,匹配后提供的服务地址，这里对payment8001提供路由
+         #开启动态路由，指定微服务名称,这里对payment8001提供路由,lb代表开启负载均衡的意思，直接写死
+         uri: lb://XCX-CLOUD-PAYMENT-SERVICE
+         predicates:
+         - Path=/queryPaymentInfo/* #断言，路径匹配的进行路由
+         #在指定的时间之后访问才有效，这个时间要通过ZonedDateTime.now()方法来生成指定格式的时间
+         #比如我们指定某个功能上线后在指定时间后才有效，才可用
+         - After=2020-04-22T11:53:34.636+08:00[Asia/Shanghai]
+         #请求中Cookie需要指定的key为username,对应的value为xcx
+         #需要指定cookie路由才能匹配访问否则访问404
+         #- Cookie=username,xcx
+         #与cookie一样的用法，请求需要匹配请求头，请求头中需要有X-Request-id参数并且值为一个整数
+         #- Header=X-Request-id,\d+
+         #指定为GET方法才能匹配路由，能访问
+         #- Method=GET
+         #查询条件，如id为整数才能匹配路由
+         #- Query=id, \d+
+
+       #这里为了测试方便写了同一个地址，可以写不同地址，统一服务名称表示的是代码一样，类似于是一个项目部署多台服务器一样
+       #lb:表示开启负责均衡，这是一种协议。
+       - id: cloud-gateway-routh #路由ID，没有固定规则，但是需要唯一，一般配合服务名称命名
+         #uri: http://localhost:8001 #没有开启动态路由,匹配后提供的服务地址，这里对payment8001提供路由
+         #开启动态路由，指定微服务名称,这里对payment8001提供路由,lb代表开启负载均衡的意思，直接写死
+         uri: lb://XCX-CLOUD-PAYMENT-SERVICE
+         predicates:
+         - Path=/queryPaymentInfo/* #断言，路径匹配的进行路由
+
+
+eureka:
+  instance:
+    hostname: cloud-gateway-service #eureak服务端的实例名称
+  client:
+    register-with-eureka: true #false表示自己不往注册中心注册
+    fetch-registry: true  #false表示自己端就是注册中心，自己就是用来维护服务实例的，不需要去检索服务
+    #查询服务注册信息地址 前面必须加上http:// ,注册地址后面必须带上eureka
+    service-url:
+       #单机版的指定地址为：
+       #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+       #如果是Eureka集群相互注册 相互守望，则此处需要改成另外一个Eureka指定的地址，此处为eureka7002.com
+       #如果有多个通过逗号分隔如defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7003.com:7003/eureka/
+       defaultZone: http://eureka7003.com:7003/eureka/

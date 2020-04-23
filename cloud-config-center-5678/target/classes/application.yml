@@ -1,0 +1,44 @@
+server:
+  port: 5678
+
+spring:
+  application:
+    name: cloud-config-center #服务名称
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xcx-scanner/springcloud-config.git #git仓库地址
+          #搜索的目录，即git上哪个项目是用来管理配置的
+          search-paths: springcloud-config
+          #分支，项目对应的分支，启动后访问http://localhost:5678/develop/config-dev.yml
+          #如果git上config-dev.yml有内容，则访问时浏览器页面是可以看到的
+          #onfig-dev 格式 类似于加载配置文件，格式要是 x-dev 这种x可以是自己取的任意名字
+          label: develop
+#BUS消息总线RabbitMQ相关配置
+  rabbitmq:
+    host: 192.168.1.111
+    port: 5672 #RabbitMq端口号
+    username: guest #rabbitMQ用户
+    password: guest #rabbitMQ密码
+
+#RabbitMQ相关配置暴露BUS刷新配置端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
+
+
+
+
+#注册到ureka服务注册中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7003.com:7003/eureka/
+
+
+
+
+

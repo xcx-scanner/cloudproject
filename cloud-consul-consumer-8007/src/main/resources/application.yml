@@ -1,0 +1,19 @@
+server:
+  port: 8007
+
+spring:
+  application:
+    name:  xcx-cloud-consul-consumer-service #服务名称,注册到consul中心的名称，配置集群的时候服务名称保持一致
+   # consul注册中心
+  cloud:
+    consul:
+      host: 192.168.40.128 #安装consul服务器地址
+      port: 8500 #consul端口号
+      discovery: ${spring.application.name}
+
+#自定义属性指定到注册的服务名称 必须加上http://
+#xcx-cloud-consul-payment-service这个对应的是注册的服务名称 可以到consul中看到
+#要想调用这个服务能解析 需要在RestTemplate的地方 加上LoadBlance注解
+cc:
+ req:
+   url: http://xcx-cloud-consul-payment-service

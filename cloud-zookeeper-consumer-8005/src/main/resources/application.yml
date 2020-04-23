@@ -1,0 +1,15 @@
+server:
+  port: 8005
+
+spring:
+  application:
+    name: xcx-cloud-zk-consumer-service #服务名称,注册到zookeeper中心的名称，配置集群的时候服务名称保持一致
+  cloud:
+    zookeeper:
+      connect-string: 192.168.40.128:2181 #zookeeper服务器的IP与端口,如果是集群用逗号分隔
+
+#自定义属性，zK提供的服务名称
+zk:
+#对应zk服务器上注册的节点名称,即服务提供者注册到zk上指定的服务名称如8004模块指定的名称: xcx-cloud-zk-payment-service
+#这个名称最好是到zk服务器上查看然后复制出来以防出错
+  server-url: http://xcx-cloud-zk-payment-service

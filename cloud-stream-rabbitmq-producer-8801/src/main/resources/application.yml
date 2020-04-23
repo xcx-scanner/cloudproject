@@ -1,0 +1,39 @@
+server:
+  port: 8801
+spring:
+  application:
+    name: cloud-stream-rabbitmq-producer #服务名称
+  cloud:
+    stream:
+    #设置要绑定的RabbitMq的信息
+      binders:
+        #定义的名称，用于binding整合
+        defaultRabbit:
+            type: rabbit #消息组件类型，比如rabbit 、kafka
+            environment: #设置RabbitMQ的环境信息
+               spring:
+                 rabbitmq:
+                   host: 192.168.1.111
+                   port: 5672
+                   username: guest
+                   password: guest
+      #服务的整合处理
+      bindings:
+      #output表示是一个生产者
+        output: #指定一个通道的名称，RabbitMQ用的是exchange，kafka用的是topic
+           destination: practiceExchange #RabbitMQ生产者名称,会在RabbitMQ的Exchange中生成一个对应名字的Exchange
+           content-type: application/json #消息数据类型，为json 如果是文本则设置为 text/plain
+           binder: defaultRabbit #设置要绑定的具体设置
+
+
+
+#eureka注册中心地址
+eureka:
+  client:
+    service-url:
+       defaultZone: http://eureka7003.com:7003/eureka/
+  instance:
+       instance-id: stream-producer #注册中心修改主机名
+       prefer-ip-address: true #鼠标放在主机名上时显示Ip
+       lease-renewal-interval-in-seconds: 30 #客户端像注册中心发送的心跳间隔默认30秒
+       lease-expiration-duration-in-seconds: 90 #Eureka服务端在收到最后一次心跳后等待时间上限默认90秒，超时将剔除
