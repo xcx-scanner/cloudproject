@@ -25,6 +25,8 @@
     <ignored path="$PROJECT_DIR$/cloud-config-client-5679/target/" />
     <ignored path="$PROJECT_DIR$/cloud-config-rabbitmq-client-5680/target/" />
     <ignored path="$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,73 +59,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StreamRabbitMQ8801.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/StreamRabbitMQ8801.java">
+      <file leaf-file-name="EurekaMain7001.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7001/src/main/java/com/xcx/springcloud/EurekaMain7001.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MsgStreamInfoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/service/impl/MsgStreamInfoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MsgStreamController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/controller/MsgStreamController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MsgStreamInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/service/MsgStreamInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EurekaServer7003.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-eureka-7003/src/main/java/com/xcx/springcloud/EurekaServer7003.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="109">
               <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/cloud-payment-module-8001/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="23" column="86" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
+            <state relative-caret-position="451">
+              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/pom.xml">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-payment-module-8003/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            <state relative-caret-position="91">
+              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerOrderController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-consumeroder-8002/src/main/java/com/xcx/springcloud/controller/ConsumerOrderController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-594">
+              <caret line="45" column="50" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumeroder-8002/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="26" column="24" selection-start-line="26" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7001/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7002/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EurekaMain7002.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7002/src/main/java/springcloud/EurekaMain7002.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -164,29 +167,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-hystrix-consumer-8010/src/main/java/com/xcx/springcloud/hystrix/service/IHystrixConsumerService.java" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-payment-8009/src/main/java/com/xcx/springcloud/hystrix/service/IHystrixPaymentService.java" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-payment-8009/src/main/java/com/xcx/springcloud/hystrix/service/impl/HystrixPaymentService.java" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-payment-8009/src/main/java/com/xcx/springcloud/hystrix/controller/HystrixPaymentController.java" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard-9001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard-9001/src/main/java/com/xcx/springcloud/HystrixDashbord9001.java" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-dashboard-9001/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-hystrix-payment-8009/src/main/java/com/xcx/springcloud/hystrix/HystrixPayment8009.java" />
-        <option value="$PROJECT_DIR$/cloud-feign-consumer-8008/src/main/java/com/xcx/springcloud/feign/service/IPaymentService.java" />
-        <option value="$PROJECT_DIR$/cloud-gateway-conf-9527/src/main/java/com/xcx/springcloud/gateway/GateWay9527.java" />
-        <option value="$PROJECT_DIR$/cloud-gateway-conf-9527/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-eureka-server-7001/src/main/java/com/xcx/springcloud/EurekaMain7001.java" />
-        <option value="$PROJECT_DIR$/cloud-payment-module-8001/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-payment-module-8001/src/main/java/com/xcx/springcloud/PaymentInfomation8001.java" />
         <option value="$PROJECT_DIR$/cloud-eureka-server-7001/cloud-eureka-7003/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-eureka-server-7001/cloud-eureka-7003/src/main/java/com/xcx/springcloud/eureka.java" />
         <option value="$PROJECT_DIR$/cloud-eureka-server-7001/cloud-eureka-7003/src/main/java/com/xcx/springcloud/EurekaServer7003.java" />
         <option value="$PROJECT_DIR$/cloud-eureka-server-7001/cloud-eureka-7003/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-eureka-server-7001/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-eureka-server-7001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-eureka-7003/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-payment-module-8001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-payment-module-8003/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-payment-module-8003/src/main/java/com/xcx/springcloud/controller/PaymentController.java" />
         <option value="$PROJECT_DIR$/cloud-payment-module-8001/src/main/java/com/xcx/springcloud/controller/PaymentController.java" />
         <option value="$PROJECT_DIR$/cloud-gateway-conf-9527/src/test/java/GateWayRouteConfTest.java" />
@@ -213,8 +200,24 @@
         <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/controller/MessageController.java" />
         <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/controller/MsgStreamController.java" />
         <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/service/impl/MsgStreamInfoImpl.java" />
-        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/java/com/xcx/springcloud/StreamRabbitMQ8802.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/java/com/xcx/springcloud/controller/ReceiveMsgController.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/java/springcloud/StreamRabbitMQ8802.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/java/springcloud/StreamRabbitMQ8803.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/java/springcloud/controller/ReceiveMsgController2.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-payment-module-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-payment-module-8003/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-consumeroder-8002/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-consumeroder-8002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-server-7001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-payment-module-8001/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-payment-module-8003/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -235,14 +238,24 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-consumeroder-8002" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="cloud-consumeroder-8002" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="743" />
     <option name="y" value="13" />
     <option name="width" value="960" />
@@ -253,8 +266,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,10 +273,21 @@
               <item name="cloud-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudproject" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="cloud-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.boot:spring-boot-starter:2.2.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -284,8 +306,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15638208" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.proportion" value="0.16060862" />
+    <property name="project.structure.side.proportion" value="0.2819738" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -294,10 +316,11 @@
       <recent name="com.xcx.springcloud.util" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\cloudproject\cloud-stream-rabbitmq-consumer-8803\src\main\java" />
+      <recent name="E:\project\cloudproject\cloud-stream-rabbitmq-consumer-8803\src\main\resources" />
+      <recent name="E:\project\cloudproject" />
       <recent name="E:\project\cloudproject\cloud-hystrix-payment-8009\src\main\resources" />
       <recent name="E:\project\cloudproject\cloud-zookeeper-consumer-8005\src\main\resources" />
-      <recent name="E:\project\cloudproject\cloud-payment-module-8003\src\main\resources" />
-      <recent name="E:\project\cloudproject\cloud-eureka-server-7002\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,7 +342,7 @@
     </option>
     <option name="contentProportion" value="0.20325203" />
   </component>
-  <component name="RunManager" selected="Spring Boot.StreamRabbitMQ8801">
+  <component name="RunManager" selected="Spring Boot.ConsumerOrder8002">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -339,26 +362,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ConfigCenter5678" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-config-center-5678" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xcx.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.ConfigCenter5678" />
-    </configuration>
-    <configuration name="ConfigClient5679" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-config-client-5679" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xcx.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.ConfigClient5679" />
-    </configuration>
     <configuration name="ConsulComsumer8007" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consul-consumer-8007" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.ConsulComsumer8007" />
@@ -367,9 +370,21 @@
       <module name="cloud-consul-payment-8006" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.consul.ConsulPayment8006" />
     </configuration>
+    <configuration name="ConsumerOrder8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumeroder-8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.ConsumerOrder8002" />
+    </configuration>
     <configuration name="ConsumerZK8005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-zookeeper-consumer-8005" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.zk.ConsumerZK8005" />
+    </configuration>
+    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server-7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.EurekaMain7001" />
+    </configuration>
+    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server-7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.EurekaMain7002" />
     </configuration>
     <configuration name="EurekaServer7003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-eureka-7003" />
@@ -384,6 +399,30 @@
     <configuration name="FeignConsumer8008" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-feign-consumer-8008" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.feign.FeignConsumer8008" />
+    </configuration>
+    <configuration name="GateWay9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-gateway-conf-9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.gateway.GateWay9527" />
+    </configuration>
+    <configuration name="HystrixConsumer8010" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-hystrix-consumer-8010" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.hystrix.HystrixConsumer8010" />
+    </configuration>
+    <configuration name="HystrixDashbord9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-hystrix-dashboard-9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.HystrixDashbord9001" />
+    </configuration>
+    <configuration name="HystrixPayment8009" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-hystrix-payment-8009" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.hystrix.HystrixPayment8009" />
+    </configuration>
+    <configuration name="PaymentInfomation8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-payment-module-8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.PaymentInfomation8001" />
+    </configuration>
+    <configuration name="PaymentInfomation8003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-payment-module-8003" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.PaymentInfomation8003" />
     </configuration>
     <configuration name="PaymentZK8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-zookeeper-payment-8004" />
@@ -408,6 +447,26 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.StreamRabbitMQ8801" />
+    </configuration>
+    <configuration name="StreamRabbitMQ8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-consumer-8802" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xcx.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcx.springcloud.StreamRabbitMQ8802" />
+    </configuration>
+    <configuration name="StreamRabbitMQ8803" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-consumer-8803" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.StreamRabbitMQ8803" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -437,19 +496,28 @@
       <item itemvalue="Spring Boot.ConsulComsumer8007" />
       <item itemvalue="Spring Boot.FeignConsumer8008" />
       <item itemvalue="Spring Boot.ConsumerZK8005" />
+      <item itemvalue="Spring Boot.PaymentInfomation8001" />
+      <item itemvalue="Spring Boot.GateWay9527" />
+      <item itemvalue="Spring Boot.EurekaMain7002" />
+      <item itemvalue="Spring Boot.PaymentInfomation8003" />
+      <item itemvalue="Spring Boot.ConsumerOrder8002" />
+      <item itemvalue="Spring Boot.HystrixPayment8009" />
+      <item itemvalue="Spring Boot.HystrixDashbord9001" />
+      <item itemvalue="Spring Boot.EurekaMain7001" />
+      <item itemvalue="Spring Boot.HystrixConsumer8010" />
       <item itemvalue="Spring Boot.EurekaServer7003" />
-      <item itemvalue="Spring Boot.ConfigCenter5678" />
-      <item itemvalue="Spring Boot.ConfigClient5679" />
       <item itemvalue="Spring Boot.RabbitMQConfigClient5680" />
       <item itemvalue="Spring Boot.StreamRabbitMQ8801" />
+      <item itemvalue="Spring Boot.StreamRabbitMQ8802" />
+      <item itemvalue="Spring Boot.StreamRabbitMQ8803" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.StreamRabbitMQ8803" />
+        <item itemvalue="Spring Boot.StreamRabbitMQ8802" />
         <item itemvalue="Spring Boot.StreamRabbitMQ8801" />
         <item itemvalue="Spring Boot.EurekaServer7003" />
         <item itemvalue="Spring Boot.RabbitMQConfigClient5680" />
-        <item itemvalue="Spring Boot.ConfigClient5679" />
-        <item itemvalue="Spring Boot.ConfigCenter5678" />
       </list>
     </recent_temporary>
   </component>
@@ -487,11 +555,14 @@
       <workItem from="1587622889191" duration="3251000" />
       <workItem from="1587631291103" duration="4617000" />
       <workItem from="1587639803189" duration="8140000" />
+      <workItem from="1587701423514" duration="3278000" />
+      <workItem from="1587705892770" duration="5689000" />
+      <workItem from="1587713408446" duration="2290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132956000" />
+    <option name="totallyTimeSpent" value="144213000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -506,8 +577,8 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.50053304" side_tool="true" weight="0.3601741" />
-      <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.48991695" visible="true" weight="0.046375267" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.5010661" side_tool="true" weight="0.4548422" />
+      <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.48991695" visible="true" weight="0.23347548" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="MyBatis Log" order="13" weight="0.3297062" />
       <window_info id="Capture Tool" order="7" />
@@ -523,16 +594,15 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.3297062" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" x="22" y="318" width="1876" height="404" id="Run Dashboard" order="15" sideWeight="0.49946696" visible="true" weight="0.3297062" />
+      <window_info active="true" anchor="bottom" x="22" y="318" width="1876" height="404" id="Run Dashboard" order="15" sideWeight="0.4989339" visible="true" weight="0.44178456" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297062" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3297062" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3297062" />
       <window_info anchor="bottom" id="Problems" order="11" weight="0.3351469" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24626866" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2867804" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32995737" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297062" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5033445" side_tool="true" weight="0.32995737" />
@@ -540,6 +610,7 @@
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="11" sideWeight="0.510083" side_tool="true" weight="0.21215352" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297062" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -601,107 +672,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-gateway-conf-9527/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1116">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-hystrix-consumer-8010/src/main/java/com/xcx/springcloud/hystrix/HystrixConsumer8010.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7002/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="57" selection-start-line="12" selection-start-column="3" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7001/cloud-eureka-7003/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7001/cloud-eureka-7003/src/main/java/com/xcx/springcloud/EurekaServer7003.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7001/cloud-eureka-7003/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-576">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7002/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="16" lean-forward="true" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7002/src/main/java/springcloud/EurekaMain7002.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7001/src/main/java/com/xcx/springcloud/EurekaMain7001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-payment-module-8003/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-payment-module-8003/src/main/java/com/xcx/springcloud/controller/PaymentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-payment-module-8003/src/main/java/com/xcx/springcloud/PaymentInfomation8003.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-payment-module-8001/src/main/java/com/xcx/springcloud/PaymentInfomation8001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../mavenlib/mavenlib/org/springframework/spring-web/5.2.2.RELEASE/spring-web-5.2.2.RELEASE.jar!/org/springframework/http/HttpStatus.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-gateway-conf-9527/src/main/java/com/xcx/springcloud/gateway/GateWay9527.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17">
@@ -776,9 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,9 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,26 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-payment-module-8001/src/main/java/com/xcx/springcloud/controller/PaymentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-payment-module-8001/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="83" column="29" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -840,48 +784,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-payment-module-8001/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="29" selection-start-line="29" selection-end-line="33" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://F:/Program Files/Java/jdk1.8.0_162/jre/lib/rt.jar!/sun/nio/ch/sctp/MessageInfoImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <folding>
-            <element signature="e#0#2995#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-648" />
       </provider>
     </entry>
-    <entry file="jar://F:/Program Files/Java/jdk1.8.0_162/jre/lib/rt.jar!/com/sun/xml/internal/messaging/saaj/soap/MessageImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#46000#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/service/IStreamMessage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/service/impl/StreamMessageImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="27" column="1" lean-forward="true" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/service/IStreamMessage.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/service/impl/StreamMessageImpl.java" />
     <entry file="jar://$PROJECT_DIR$/../mavenlib/mavenlib/org/springframework/spring-messaging/5.2.2.RELEASE/spring-messaging-5.2.2.RELEASE.jar!/org/springframework/messaging/support/MessageBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -896,15 +805,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/target/classes/com/xcx/springcloud/controller/MessageController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <folding>
-            <element signature="e#0#632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/target/classes/com/xcx/springcloud/controller/MessageController.class" />
     <entry file="jar://$PROJECT_DIR$/../mavenlib/mavenlib/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -912,60 +813,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-7003/src/main/java/com/xcx/springcloud/EurekaServer7003.java">
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/controller/MsgStreamController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/StreamRabbitMQ8801.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/service/MsgStreamInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="540">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+        <state relative-caret-position="432">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/service/MsgStreamInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="36" selection-start-column="36" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-payment-module-8001/src/main/java/com/xcx/springcloud/controller/PaymentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/service/impl/MsgStreamInfoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="36">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/java/com/xcx/springcloud/controller/ReceiveMsgController.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2483">
+          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/java/com/xcx/springcloud/controller/ReceiveMsgController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/java/springcloud/controller/ReceiveMsgController2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-7003/src/main/java/com/xcx/springcloud/EurekaServer7003.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/java/com/xcx/springcloud/StreamRabbitMQ8802.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/java/springcloud/StreamRabbitMQ8803.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8803/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/StreamRabbitMQ8801.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8802/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="26" selection-start-line="26" selection-end-line="29" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="23" column="86" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
+        <state relative-caret-position="288">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-producer-8801/src/main/java/com/xcx/springcloud/controller/MsgStreamController.java">
+    <entry file="file://$PROJECT_DIR$/cloud-payment-module-8001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1260">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-payment-module-8003/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumeroder-8002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7002/src/main/java/springcloud/EurekaMain7002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7001/src/main/java/com/xcx/springcloud/EurekaMain7001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-eureka-server-7001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumeroder-8002/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="26" column="24" selection-start-line="26" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-payment-module-8001/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-payment-module-8003/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumeroder-8002/src/main/java/com/xcx/springcloud/controller/ConsumerOrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="45" column="50" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1021,12 +1064,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cloud-eureka-7003</last-edited>
+          <last-edited>Spring|cloud-payment-module-8003</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.28757516" />
-                <option value="0.6" />
+                <option value="0.2819738" />
               </list>
             </option>
           </splitter-proportions>

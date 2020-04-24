@@ -23,6 +23,8 @@
         <module name="cloud-hystrix-payment-8009" />
         <module name="cloud-payment-module-8001" />
         <module name="cloud-payment-module-8003" />
+        <module name="cloud-stream-rabbitmq-consumer-8802" />
+        <module name="cloud-stream-rabbitmq-consumer-8803" />
         <module name="cloud-stream-rabbitmq-producer-8801" />
         <module name="cloud-zookeeper-consumer-8005" />
         <module name="cloud-zookeeper-payment-8004" />

@@ -27,6 +27,8 @@
       <module>cloud-config-client-5679</module>
       <module>cloud-config-rabbitmq-client-5680</module>
       <module>cloud-stream-rabbitmq-producer-8801</module>
+      <module>cloud-stream-rabbitmq-consumer-8802</module>
+      <module>cloud-stream-rabbitmq-consumer-8803</module>
   </modules>
   <!--设置为父pom-->
   <packaging>pom</packaging>

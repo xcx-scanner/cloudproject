@@ -28,6 +28,12 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
+
+        <!--添加链路跟踪 该依赖包含了sleuth与zipKin-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
         <!--Springboot与mybatis的整合-->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
